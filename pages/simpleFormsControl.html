@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Forms Control </title>
+</head>
+<body>
+  <h2>Регистрация</h2>
+  <form action="/registration.py" method="GET">
+    <fieldset>
+      <legend>Лични данни</legend>
+      <label for="fname">Име: </label>
+      <input type="text" id="fname" name="fname" placeholder="малко име, на латиница"><br>
+      <label for="lname">Име: </label>
+      <input type="text" id="lname" name="lname" placeholder="фамилия, на латиница"><br>
+      <label for="gender">Пол: </label>
+      <label for="male">мъж: </label>
+      <input type="radio" name="gender" value="male">
+      <label for="female">жена: </label>
+      <input type="radio" name="gender" value="female"><br>
+    </fieldset>
+    <label for="comment">Коментар: </label><br>
+    <textarea name="comment" placeholder="напишете ни нещо"></textarea><br>
+    <button type="submit">Изпрати</button>
+  </form>
+</body>
+</html>
