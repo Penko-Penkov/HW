@@ -1,0 +1,51 @@
+.whole-page{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url("../images/crow.jpg");
+  background-color:  rgb(235, 174, 32) ;
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  border: 10px outset rgb(216, 170, 30);
+}
+.contents{
+  display:flex;
+  flex-direction: column;
+  width:600px;
+  line-height: 1.5em;
+  font-size: 20px;
+}
+h1{
+  color:rgb(247, 195, 84);
+  text-align: center;
+  
+}
+h3{
+  color:rgb(85, 60, 6);
+  font-style: italic;
+  text-align: center;
+}
+p{
+  font-weight: bold;
+  color:white;
+  text-indent: 50px;
+  text-align:left;
+  vertical-align: bottom;
+}
+.quotes{
+  font-style: italic;
+  letter-spacing: 2px;
+}
+.underline{
+text-decoration-line: underline;
+text-decoration-color: rgb(231, 158, 55);
+}
+#bio{
+  text-indent: 0%;
+  color:rgb(247, 195, 84);
+  border-top: 10px double rgb(247, 195, 84);
+}
+#source{
+  text-indent: 0%;
+  color:rgb(0, 0, 0);
+}
