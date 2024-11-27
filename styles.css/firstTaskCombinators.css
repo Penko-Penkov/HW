@@ -1,0 +1,9 @@
+header>p+p{
+  background-color: lightgreen;
+}
+main>p+p{
+  background-color: lightblue;
+}
+body a{
+  background-color: lightgrey;
+}

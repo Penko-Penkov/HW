@@ -1,0 +1,7 @@
+body>h1{
+  font-size:30px;
+  font-weight: bold;
+}
+body>p~p+p{
+  background-color: red;
+}
