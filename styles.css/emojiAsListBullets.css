@@ -1,0 +1,32 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+  font-size:3.125em;
+  font-weight:bold;
+  text-align: center;
+}
+ul{
+  width:70%;
+  margin:31.875em auto;
+  padding-top:0.625em;
+  padding-bottom:0.625em;
+  border:outset;
+  border-width: 0.625em;
+  border-color: grey;
+  list-style-type: none;
+  font-size: 1.25em;
+}
+.emoji-smile::before{
+  content:"\1F603";
+}
+.emoji-sad::before{
+  content:"\1F625";
+}
+.emoji-loudly-crying::before{
+  content: "\1F62D";
+}

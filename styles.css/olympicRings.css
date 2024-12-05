@@ -1,0 +1,57 @@
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.image{
+  display:flex;
+  justify-content: center;
+  width:100vw;
+  height:100vh;
+  background-image: url(../images/ocean-through-window-frame.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position:relative;
+}
+.rings-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:21.75em;
+  position:absolute;
+  top:9.375em;
+}
+.rings{
+  width:6.25em;
+  height:6.25em;
+  border-style: solid;
+  border-radius: 100%;
+  border-width: 0.5em;
+  color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-weight: bold;
+  line-height: 6.25em;
+  vertical-align: middle;
+  position:relative;
+}
+#blue{
+  border-color: rgba(0, 0, 255, 0.5);
+}
+#yellow{
+  border-color: rgba(228, 228, 29, 0.5);
+}
+#green{
+  position:absolute;
+  left:3.625em;
+  top:4.375em;
+  border-color: rgba(31, 186, 33, 0.5);
+}
+#red{
+  position:absolute;
+  left:10.875em;
+  top:4.375em;
+  border-color: rgba(230, 32, 32, 0.5);
+}
